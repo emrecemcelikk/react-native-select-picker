@@ -16,7 +16,7 @@ export default class SelectPicker extends PureComponent {
 		super(props);
 
 		this.state = {
-			visible: false,
+			visible: this.props.visible,
 			childrenItems: this.props.children || [],
 			selected: this.props.selected || null,
 			selectedKey: null,
@@ -186,7 +186,7 @@ export default class SelectPicker extends PureComponent {
 		return (
 			<TouchableOpacity activeOpacity={0.9} style={[styles.inputStyle, this.props.style]} onPress={() => { this.showSelectModal() }}>
 				{/* Get title of the select element */}
-				{this.getSelectTitle()}
+				{/* {this.getSelectTitle()} */}
 
 				{/* Modal to display on touch */}
 				<Modal visible={this.state.visible} onRequestClose={() => this.onValueChange()} transparent>

@@ -1,14 +1,67 @@
 {
-  "name": "react-native-form-select-picker",
-  "version": "0.0.12",
-  "description": "Customized select picker (just like <select> in html) that renders the same on iOS and Android",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "jest"
+  "_from": "react-native-form-select-picker",
+  "_id": "react-native-form-select-picker@0.0.12",
+  "_inBundle": false,
+  "_integrity": "sha512-A2p6lh7pV4UFGc+/Gfo9AFqtJMjW3g2V3BSY6opKpoFOMf8RikggwPgHAdR8BdRjqjShqYwmk7pGeFB6646v5A==",
+  "_location": "/react-native-form-select-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-form-select-picker",
+    "name": "react-native-form-select-picker",
+    "escapedName": "react-native-form-select-picker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/olayinkaokewale/react-native-select-picker.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-form-select-picker/-/react-native-form-select-picker-0.0.12.tgz",
+  "_shasum": "8edd620ed6705a0a5709ebedd95f0a4747bd362d",
+  "_spec": "react-native-form-select-picker",
+  "_where": "/Users/kendal/development/happy-new/mobil-new",
+  "author": {
+    "name": "Olayinka Okewale",
+    "email": "okjool2012@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/olayinkaokewale/react-native-select-picker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Customized select picker (just like <select> in html) that renders the same on iOS and Android",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@react-native-picker/picker": "^1.9.12",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.1.0",
+    "eslint": "^6.5.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^26.1.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react": "^16.13.1",
+    "react-native": "^0.63.1",
+    "react-native-testing-library": "^2.1.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.d.ts",
+    "src"
+  ],
+  "homepage": "https://github.com/olayinkaokewale/react-native-select-picker#readme",
+  "jest": {
+    "preset": "react-native"
   },
   "keywords": [
     "react-native",
@@ -17,38 +70,18 @@
     "select",
     "picker"
   ],
-  "author": "Olayinka Okewale <okjool2012@gmail.com>",
   "license": "MIT",
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.d.ts",
-    "src"
-  ],
-  "devDependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.63.1",
-    "@babel/core": "^7.10.5",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-syntax-jsx": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "@babel/runtime": "^7.6.2",
-    "@react-native-community/eslint-config": "^0.0.5",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^26.1.0",
-    "eslint": "^6.5.1",
-    "jest": "^26.1.0",
-    "isomorphic-fetch": "^2.2.1",
-    "metro-react-native-babel-preset": "^0.58.0",
-    "react-native-testing-library": "^2.1.1",
-    "react-test-renderer": "^16.13.1",
-    "@react-native-picker/picker": "^1.9.12"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
+  "main": "src/index.js",
+  "name": "react-native-form-select-picker",
   "peerDependencies": {
     "@react-native-picker/picker": "^1.9.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olayinkaokewale/react-native-select-picker.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "0.0.12"
 }
